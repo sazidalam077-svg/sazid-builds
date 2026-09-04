@@ -684,36 +684,19 @@ body::after {
 ========================================================= */
 
 .monogram {
+    width: 130px;
+    height: 160px;
+    border-radius: 28px;
+    overflow: hidden;
     flex-shrink: 0;
+}
 
-    width: 105px;
-    height: 105px;
-
-    display: grid;
-
-    place-items: center;
-
-    border-radius: 25px;
-
-    background:
-        linear-gradient(
-            145deg,
-            #d8ccff 0%,
-            #a78bfa 45%,
-            #7c3aed 100%
-        );
-
-    color: white;
-
-    font-size: 28px;
-
-    font-weight: 800;
-
-    letter-spacing: -2px;
-
-    box-shadow:
-        0 25px 55px
-        rgba(124, 58, 237, 0.28);
+.monogram img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: center 70%;
 }
 
 
@@ -753,7 +736,7 @@ body::after {
 
     gap: 8px;
 
-    margin-top: 60px;
+    margin-top: 28px;
 
     z-index: 2;
 }
@@ -786,7 +769,6 @@ body::after {
 
 .identity-footer {
     position: absolute;
-
     left: 24px;
     right: 24px;
     bottom: 21px;
@@ -1299,7 +1281,9 @@ body::after {
     .identity-center {
         margin-top: 48px;
 
-        gap: 14px;
+        gap: 24px;
+        display: flex;
+        align-items: center;
     }
 
     .monogram {
