@@ -680,47 +680,7 @@ body::after {
 
 
 /* =========================================================
-   SA MONOGRAM
-========================================================= */
-/* Profile photo inside identity card */
-.identity-card .identity-center {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
 
-.identity-card .monogram {
-    width: 130px !important;
-    height: 160px !important;
-    min-width: 130px !important;
-    min-height: 160px !important;
-    max-width: 130px !important;
-    max-height: 160px !important;
-
-    flex: 0 0 130px !important;
-    position: relative !important;
-
-    overflow: hidden !important;
-    border-radius: 28px !important;
-}
-
-.identity-card .monogram img {
-    width: 100% !important;
-    height: 100% !important;
-
-    min-width: 0 !important;
-    min-height: 0 !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
-
-    display: block !important;
-    position: static !important;
-
-    object-fit: cover !important;
-    object-position: center 70% !important;
-
-    border-radius: inherit;
-}
 
 /* =========================================================
    IDENTITY NAME
