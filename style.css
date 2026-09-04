@@ -684,19 +684,37 @@ body::after {
 ========================================================= */
 
 .monogram {
-    width: 130px;
-    height: 160px;
+    width: 130px !important;
+    height: 160px !important;
+    min-width: 130px;
+    min-height: 160px;
+    max-width: 130px;
+    max-height: 160px;
+
     border-radius: 28px;
     overflow: hidden;
-    flex-shrink: 0;
+    flex: 0 0 130px;
+
+    position: relative;
 }
 
 .monogram img {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+
     object-fit: cover;
-    display: block;
     object-position: center 70%;
+
+    display: block;
+    position: absolute;
+    inset: 0;
+}
+.identity-center {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 
