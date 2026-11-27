@@ -1,34 +1,18 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    <!-- Main Portfolio Homepage -->
     <url>
         <loc>https://sazidbuilds.in/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
+    <!-- Personal Profile / About Page -->
     <url>
-        <loc>https://sazidbuilds.in/#work</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://sazidbuilds.in/#about</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://sazidbuilds.in/#stack</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://sazidbuilds.in/#contact</loc>
+        <loc>https://sazidbuilds.in/about.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
